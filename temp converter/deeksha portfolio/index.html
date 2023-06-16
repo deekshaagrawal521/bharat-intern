@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@1,100&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<body>
+  <header id="home">
+    <nav>
+      <div class="logo animate__animated animate__pulse animate__repeat-2 animate__delay-1s">Deeksha</div>
+      <div class="menu">
+        <a href="#home">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#resource">Resource</a>
+        <a href="#">Youtube</a>
+      </div>
+    </nav>
+    <div class="h-text animate__animated animate__zoomIn">
+      <h1>Hello! I'm Deeksha Agrawal,<br>
+        a Developer...
+      </h1>
+      <p>I'm glad you're here! check out my Portfolio, Watch my videos, check my Resource and had fun!.</p>
+      <br><br>
+      <a href="#" id="hello">Say Hello</a>
+      <a href="#" id="more" class="me">More About Me</a>
+    </div>
+    <div class="icon animate__animated animate__swing animate__delay-1s">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-whatsapp"></i>
+    </div>
+    <img src="IMG-20230613-WA0001.jpg" id="wizard" class="animate__animated animate__slideInLeft animate__delay-1s">
+    <div class="box animate__animated animate__slideInDown"></div>
+  </header>
+
+  <section id="about">
+    <div class="about-row">
+      <div class="about-left-col">
+        <img src="IMG-20230613-WA0002.jpg" alt="">
+      </div>
+      <div class="about-right-col">
+        <h1>I'm Deeskha Agrawal</h1>
+        <br>
+        <h2 class="pppp">FontEnd - developer</h2>
+        <p>I am a Full-Stack developer based in Jaipur, India. I am a B.Tech undergraduate from Arya Institute of Engineering and Technology. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites. Working for myself to improve my skills. Love to build Full-Stack clones.</p>
+        <a href="#">Check out My Work<i class="fa fa-long-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="work-row">
+      <div class="work-left-col">
+        <h1>Sharing my <br>Learning ..</h1>
+        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. It is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+        <p>JavaScript is a multi-paradigm, dynamic language with types and operators, standard built-in objects, and methods. It is the programming language of the Web and is used to implement complex features on web pages such as displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc.</p>
+        <a href="#">View More <i class="fa fa-long-arrow-right"></i></a>
+      </div>
+      <div class="work-right-col">
+        <img src="IMG-20230613-WA0005.jpg" width="450" height="315" alt="">
+        <img src="IMG-20230613-WA0003.jpg" width="450" height="315" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="resource">
+    <div class="r-row">
+      <div class="r-left-col">
+        <div>
+          <h1>Web Design</h1>
+          <p>Web design refers to the design of websites that are displayed on the internet. A web designer works on the appearance, layout, and, in some cases, content of a website. Appearance relates to the colors, font, and images used.</p>
+          <a href="#">Book a Design<i class="fa fa-long-arrow-right"></i></a>
+        </div>
+        <div>
+          <h1>Web development</h1>
+          <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management.</p>
+          <a href="#">Visit my website<i class="fa fa-long-arrow-right"></i></a>
+        </div>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div class="r-right-col">
+        <h1>Improve everyday <br> life from design</h1>
+        <img src="IMG-20230613-WA0004.jpg" width="450" height="315" alt="">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&hearts; Made by Deeksha &hearts;</p>
+    <p>Time For Exit</p>
+  </footer>
+
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 2000
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.logo{
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    letter-spacing: 7px;
+    color: rgb(9, 0, 90);
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background: rgba(228, 48, 48, 0.563);
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+
+.h-text{
+    max-width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: -3;
+}
+
+.h-text h1{
+    font-size: 5em;
+    font-weight: 500;
+    color: #222f3e;
+    font-family: 'Crimson Text', serif;
+}
+
+.h-text p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.h-text a{
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    background: rgb(5, 80, 80);
+    border-radius: 8px;
+    font-size: 22px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.icon{
+    display: flex;
+    top: 50%;
+    left: 0;
+    position: fixed;
+    flex-direction: column;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.icon i{
+    color: white;
+    background: rgb(5, 80, 80);
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.icon i:hover{
+    color: black;
+    background: white;
+    transition: 0.3s;
+    border: 2px solid black;
+}
+
+.box{
+    width: 60%;
+    height: 70%;
+    background: rgba(255, 211, 175, 0.7);
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    z-index: -2;
+}
+
+#wizard{
+    position: absolute;
+    right: 10%;
+    top: 0%;
+    width: 430px;
+    height: 95%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#about{
+    padding: 50px 100px;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-left-col{
+    flex-basis: 40%;
+    text-align: center;
+    background: rgba(255, 159, 243, 0.2);
+}
+
+.about-left-col img{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+}
+
+.about-right-col{
+    flex-basis: 50%;
+}
+
+.about-right-col h1{
+    font-size: 3em;
+    line-height: 1.4em;
+    color: #222f3e;
+}
+
+.about-right-col p{
+    color: grey;
+    font-size: 21px;
+    margin: 30px 0 40px 0 ;
+}
+
+.about-right-col a{
+    text-decoration: none;
+    color: white;
+    background: rgb(5, 80, 80);
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+#work{
+    padding: 0 100px;
+    width: 100%;
+}
+
+.work-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-left-col {
+    padding-right: 50px;
+  }
+  
+  .work-right-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .work-right-col img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+  
+
+.work-left-col a{
+    text-decoration: none;
+    color: white;
+    background: rgb(5, 80, 80);
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+#resource{
+    padding: 50px 100px;
+    width: 100%;
+}
+
+.r-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.r-left-col{
+    flex-basis: 50%;
+}
+
+.r-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.r-left-col > div{
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.r-left-col h1{
+    color: rgb(95, 25, 25);
+    font-size: 2em;
+}
+
+.r-left-col p{
+    font-size: 20px;
+    color: rgb(4, 8, 61);
+    margin: 20px 0;
+}
+
+.r-left-col a{
+    text-decoration: none;
+    color: white;
+    background: rgb(5, 80, 80);
+    font-size: 30px;
+    padding: 10px 20px;  
+    border-radius: 8px;
+}
+
+.r-left-col i{
+    font-size: 29px;
+    border-radius: 10px;
+    color: white;
+    background: rgb(5, 80, 80);
+    margin: 0 3px;
+    padding: 5px;
+}
+
+.r-right-col img{
+    width: 70%;
+    height: auto;
+}
+
+.r-right-col h1{
+    color: rgb(97, 97, 97);
+    font-size: 3em;
+    line-height: 1.4em;
+}
+
+footer{
+    color: rgb(36, 8, 190);
+    background: aqua;
+    font-size: 20px;
+    padding: 20px 100px;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
